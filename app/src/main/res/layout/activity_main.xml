@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.careersvirtualsolutions.myappportfolio.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My Nanodegree Apps!"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Popular Movies"
+        android:id="@+id/PM"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:shadowColor="@color/colorAccent"
+        android:textColorHint="@color/colorPrimaryDark" />
+
+    <Button
+        android:textColor="@color/colorPrimary"
+        android:shadowColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stock Hawk"
+        android:id="@+id/SH"
+        android:layout_below="@+id/PM"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:textColor="@color/colorPrimary"
+        android:shadowColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Build it Bigger"
+        android:id="@+id/BiB"
+        android:layout_below="@+id/SH"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:textColor="@color/colorPrimary"
+        android:shadowColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Make Your App Material"
+        android:id="@+id/MYM"
+        android:layout_below="@+id/BiB"
+        android:layout_alignLeft="@+id/GU"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_alignStart="@+id/GU" />
+
+    <Button
+        android:textColor="@color/colorPrimary"
+        android:shadowColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Ubiquitous"
+        android:id="@+id/GU"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_below="@+id/MYM"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:textColor="@color/colorPrimary"
+        android:shadowColor="@color/colorAccent"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capstone"
+        android:id="@+id/C"
+        android:layout_below="@+id/GU"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
